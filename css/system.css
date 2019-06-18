@@ -1,0 +1,221 @@
+/* logo style */
+.bcci {
+  display: flex;
+  width: 90%;
+  border: 1px solid #ddd;
+  /* padding: 1%; */
+  box-shadow: 2px 2px 2px #ddd;
+  margin: 1% auto;
+}
+
+.child {
+  width: 49%;
+}
+
+.child img {
+  width: 50%;
+}
+
+/* heading */
+.icc {
+  width: 49%;
+  text-align: right;
+  color: #6b07e1;
+}
+
+/* banner image */
+.criclog {
+  width: 90%;
+  height: auto;
+  box-shadow: 3px 3px 3px #ddd;
+  margin: 1% auto;
+}
+
+.criclog img {
+  width: 100%;
+}
+
+/* last divisin */
+.list {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin: 1% auto;
+}
+
+.sub1 {
+  width: 23%;
+  margin: 1%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  /* padding: 1%; */
+  background-color: #999966;
+}
+
+/* images */
+.sub1 img {
+  width: 100%;
+  height: 90%;
+  border-radius: 10px;
+  /* padding: 1%; */
+}
+
+/* to beautify */
+.sub1 img:hover {
+  border: solid 1px #f7dc6f;
+  -moz-box-shadow: 1px 1px 5px #f7dc6f;
+  -webkit-box-shadow: 1px 1px 5px #f7dc6f;
+  box-shadow: 1px 1px 1px #f7dc6f;
+}
+
+.sub1 {
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.sub1 img:hover {
+  transform: scale(0.9);
+}
+
+.sub1 .click {
+  margin-bottom: 2%;
+}
+
+.click {
+  background-color: #85c1e9;
+  text-align: center;
+}
+
+/* media query for phone */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .bcci {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    border: 1px solid #ddd;
+    /* padding: 1%; */
+    box-shadow: 3px 3px 3px #000;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .child {
+    width: 100%;
+    text-align: center;
+  }
+
+  .child img {
+    width: 100%;
+  }
+
+  .icc {
+    width: 100%;
+    text-align: center;
+  }
+
+  .criclog {
+    width: 90%;
+    height: auto;
+    box-shadow: 3px 3px 3px #000;
+    margin-left: 3%;
+  }
+
+  .criclog img {
+    width: 100%;
+    /* height: 80px; */
+    /* margin: 3% auto; */
+  }
+
+  .list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sub1 {
+    width: 100%;
+    margin: 1%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    /* padding: 1%; */
+    background-color: #999966;
+  }
+
+  .sub1 img {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+    /* padding: 1%; */
+  }
+}
+
+footer {
+  background-color: #aab7b8;
+  box-shadow: 3px 3px 3px #ddd;
+  text-align: center;
+}
+
+/* media query for tablet */
+@media only screen and (min-width: 760px) and (max-width: 1023px) {
+  .bcci {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    border: 1px solid #ddd;
+    /* padding: 1%; */
+    box-shadow: 3px 3px 3px #000;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .child {
+    width: 100%;
+    text-align: center;
+  }
+
+  .child img {
+    width: 100%;
+  }
+
+  .icc {
+    width: 100%;
+    text-align: center;
+  }
+
+  .criclog {
+    width: 90%;
+    height: auto;
+    box-shadow: 3px 3px 3px #000;
+    margin-left: 3%;
+  }
+
+  .criclog img {
+    width: 100%;
+    /* margin: 3% auto; */
+  }
+
+  .list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .sub1 {
+    width: 40%;
+    margin: 1%;
+    /* padding: 1%; */
+  }
+
+  .sub1 img {
+    width: 85%;
+    height: 90%;
+    border-radius: 10px;
+    /* padding: 1%; */
+  }
+}
